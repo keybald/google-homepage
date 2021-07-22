@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .btn-light:hover {
+            border: 1px solid;
+            border-color: rgb(214, 214, 214);
+        }
+        .menu_a:link {
+            color: rgb(87, 87, 87);
+            text-decoration: none;
+        }
+        .menu_a:hover {
+            color:rgb(87, 87, 87);
+            text-decoration: underline;
+        }
+        .a_language:link {
+            text-decoration: none;
+        }
+        .a_language:hover {
+            text-decoration: underline;
+        }
+        .icon {
+            padding: 10px;
+            min-width: 10px;
+            left: 10px;
+            top: 27px;
+         }
+        .input-icon i {
+            position: absolute;
+        }
+        .input-icon {
+            position: relative;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Google</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="container-fluid d-flex justify-content-end">
+                <a class="nav-link menu_a" href="#">Gmail</a>
+                <a class="nav-link menu_a" href="#">Images</a> 
+                <span class="material-icons ms-4">apps</span>         
+            </div>
+        </nav>
+        <div class="row mx-auto" style="width:300px; margin-top: 30vh">
+            <div class="col-lg-12">
+                <img src="googlelogo_color_272x92dp.png">
+            </div>
+        </div>
+        <div class="row" style="text-align:center">
+            <div class="col-lg-6 mx-auto input-icon">
+            <form action="/whatever.html">
+                <label for="search"></label>
+                <i class="material-icons icon" style="color: rgb(87, 87, 87);">search</i>
+                <input class="form-control input-lg" size="40vw" type="text" id="search" name="search" style="height: 50px; border-radius: 15px; border-top-style: solid; border-left-style: solid; border-top-width: 1px; border-left-width: 1px; border-right-width: 1px; border-bottom-width: 1px;">
+            </form>
+            </div>
+        </div>
+        <div class="row" style="text-align: center;">
+            <div class="col-lg-12">
+                <button type="button" class="btn btn-light mt-4">Google Search</button>
+                <button type="button" class="btn btn-light mt-4 ms-2">I'm Feeling Lucky</button>
+            </div>
+        </div>
+        <div class="row" style="text-align: center;">
+            <div class="col-lg-12 mt-4">
+                <span>Google offered in: </span><a class="a_language" href="#">polski</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="position: absolute; bottom: 0px;">
+        <div class="row d-flex justify-content-start" style="background-color: #f2f2f2;">
+            <span class="px-4 py-3">Poland</span>
+        </div>
+        <div class="row" style="background-color: #f2f2f2;">
+            <div class="d-flex justify-content-start px-2 py-2" style="border-top: 1px solid #dadce0;">
+            <a class="nav-link menu_a" href="#">About</a>
+            <a class="nav-link menu_a" href="#">Advertising</a>
+            <a class="nav-link menu_a" href="#">Business</a>
+            <a class="nav-link menu_a" href="#">How Search works</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
